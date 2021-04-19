@@ -1,6 +1,10 @@
 let productos = require('../data/productos')
 
-module.exports = {
+let controllersProductos = {
+    index: function(req, res){
+        res.render('productos',{'productos': productos});
+    },
+
     list: function(req, res){
         console.log('productos');
         res.render('productos',{'productos': productos});
@@ -9,13 +13,16 @@ module.exports = {
     id: function(req,res){
         let ids = req.params.id
         let resultados = []
-        for(let i=0;i<productos.length;i+=1){
-            if(productos[i].id==ids){
-                resultados.push(productos[i])
+        console.log(productos.lista)
+        for(let i=0;i<productos.lista.length;i+=1){
+            if(productos.lista[i].id==ids){
+                resultados.push(productos.lista[i])
+               
             }
-        }
-        res.render("productosid", {"productos":resultados})
+        } 
+        res.render("productoDetalle", {"productos":resultados})
+        //res.send(resultados)
     },
 }
 
-module.exports = controller
+module.exports = controllersProductos

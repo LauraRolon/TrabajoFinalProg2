@@ -1,10 +1,9 @@
-  
 let express = require('express');
 let router = express.Router();
+let controllersProductos = require('../Controllers/controllersProductos')
 
-
-/* GET registration page. */
+/* GET home page. */
 router.get('/', controllersProductos.index);
-router.get('/busqueda/:productos', controllersProductos.busqueda);
+router.get('/:id', controllersProductos.id)
 
 module.exports = router;

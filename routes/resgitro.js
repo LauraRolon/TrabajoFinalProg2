@@ -7,3 +7,5 @@ var router = express.Router();
 router.get('/', controllersRegistro.index);
 
 module.exports = router;
+
+//compiar ruta de login y habilitar en app.js
