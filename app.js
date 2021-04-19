@@ -6,9 +6,12 @@ var logger = require('morgan');
 
 let indexRouter = require('./routes/index');
 //var usersRouter = require('./routes/users');
-//var registroRouter = require('./routes/resgitro');
+let registroRouter = require('./routes/resgitro');
 let loginRouter = require('./routes/login');
 let productosRouter = require('./routes/productos');
+let profileRouter = require('./routes/profile')
+let profileEditRouter = require('./routes/profileEdit')
+let productAddRouter = require('./routes/productsAdd')
 let app = express(); 
 
 // view engine setup
@@ -23,9 +26,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 //app.use('/users', usersRouter);
-//app.use('/registro', registroRouter);
+app.use('/registro', registroRouter);
 app.use('/login', loginRouter);
 app.use('/productos', productosRouter); 
+app.use('/profile', profileRouter);
+app.use('/profile-edit', profileEditRouter);
+app.use('/product-add', productAddRouter);
 
 
 

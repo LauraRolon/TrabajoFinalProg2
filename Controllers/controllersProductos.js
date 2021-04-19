@@ -23,6 +23,18 @@ let controllersProductos = {
         res.render("productoDetalle", {"productos":resultados})
         //res.send(resultados)
     },
+
+    busqueda: (req, res) => {  //revisar que hace
+        let computadoras=req.params.productos
+        let resultados= []
+        for(let i=0;i<productos.lista.length;i+=1){
+            if(productos.lista[i].modelo==computadoras){
+                resultados.push(productos.lista[i])
+             }
+        }
+        res.render("productos.ejs", {"productos": resultados})
+
+    },
 }
 
 module.exports = controllersProductos
