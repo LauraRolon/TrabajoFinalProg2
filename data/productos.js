@@ -16,7 +16,7 @@
                 modelo: "2DCF 480 SSD",
                 sistemaOperativo: "Windows 10",
                 memoria: "480GB",
-                foto: "/images/products/lenovo2DCF480SSD.jpg",
+                foto: "/images/computadoras/lenovo2DCF480SSD.jpg",
                 descripcion: "Notebook Lenovo 2DCF 480 SSD 15.6 - AMD Ryzen 5 16 GB DDR4",     
             },
             {
@@ -25,7 +25,7 @@
                 modelo: "Aspire 5 A515-55-576H sas Premium",
                 sistemaOperativo: "Windows 10",
                 memoria: "512GB",
-                foto: "/images/products/acerAspire.jpg",
+                foto: "/images/computadoras/acerAspire.jpg",
                 descripcion: "Notebook Acer Aspire 5 A515-55-576H sas Premium 15.6",
             },
             {
@@ -34,7 +34,7 @@
                 modelo: "6MZ85LT",
                 sistemaOperativo: "Windows 10",
                 memoria: "1TB",
-                foto: "/images/products/HP6MZ85LT.jph",
+                foto: "/images/computadoras/HP6MZ85LT.jph",
                 descripcion: "Notebook HP 6MZ85LT 14 - AMD Ryzen 3 4 GB DDR4 1TB",
             },
             {
