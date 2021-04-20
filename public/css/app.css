@@ -1,16 +1,19 @@
 /*====== Fonts ======*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 
 /*====== Variables ======*/
 :root {
-  --yellow: #EAC926;
+  --yellow: #006680;
   --dark-blue: #03264C;
   --light-blue: #1259c3;
   --gray: #666666;
   --light-gray: #ebebeb;
   --green: #39b54a;
-  --base-font-family: 'Roboto', sans-serif
+  --button-dark-blue: #09031f; 
+  --base-font-family: 'Roboto', sans-serif;
+  --titles-font-family: 'Lato', sans-serif;
 }
 
 
@@ -172,6 +175,7 @@ hr {
   font-size: 2.4em;
   font-weight: 400;
   color: var(--gray);
+  font-family: var(--titles-font-family);
 }
 
 .product-box {
@@ -259,7 +263,7 @@ hr {
 
 /*====== Footer ======*/
 .main-footer {
-  background-color: #ffffff;
+  background-color: #10051f;
   padding: 20px 0;
   margin-top: 80px;
 }
@@ -269,7 +273,7 @@ hr {
 }
 
 .footer-data i {
-  color: var(--light-blue);
+  color: white;
   font-size: 3.5em;
 }
 
@@ -369,7 +373,7 @@ hr {
 }
 
 .buy-now-button {
-  background-color: var(--light-blue);
+  background-color: var(--button-dark-blue);
   font-size: 1.6em;
   color: #ffffff;
   padding: 15px;
