@@ -8,6 +8,7 @@
                 memoria: "2TB",
                 foto: "/images/computadoras/McBookAir.jpg", //consulta acá
                 descripcion: "Macbook Air 13 Apple M1 Chip 8gb 256 Ssd 13.3 2560 X 1600",
+                precio: "$148.116"
                 //comentarios: 2
             },
             {
