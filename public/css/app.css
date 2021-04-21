@@ -1,6 +1,8 @@
 /*====== Fonts ======*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 
 
 /*====== Variables ======*/
@@ -14,6 +16,7 @@
   --button-dark-blue: #09031f; 
   --base-font-family: 'Roboto', sans-serif;
   --titles-font-family: 'Lato', sans-serif;
+  --product-name-font: 'Roboto Slab', serif;
 }
 
 
@@ -206,6 +209,7 @@ hr {
   font-size: 2.4em;
   font-weight: 300;
   margin: 0;
+  font-family: var(--product-name-font);
 }
 
 .product-box_data span {
