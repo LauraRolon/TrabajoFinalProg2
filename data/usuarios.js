@@ -1,6 +1,6 @@
 module.exports = [
     {
-        id: u1,
+        email: "juanmartinez@gmail.com",
         nombreDeUsuario: "Juan Martinez", 
         Edad:26,
         Contraseña:"adf12344" ,
@@ -9,7 +9,7 @@ module.exports = [
         comentarios: "300",
     },
     {
-        id: u2,
+        email: "Jorgecasares@gmail.com",
         nombreDeUsuario: "Jorge Casares", 
         Edad:29,
         Contraseña:"casa123" ,
@@ -18,7 +18,7 @@ module.exports = [
         comentarios: "12",
     },
     {
-        id: u3,
+        email: "nataliapuentes@gmail.com",
         nombreDeUsuario: "Natalia Puentes", 
         Edad:18,
         Contraseña:"87555" ,
