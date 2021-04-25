@@ -8,7 +8,7 @@ let indexRouter = require('./routes/index');
 //var usersRouter = require('./routes/users');
 let registroRouter = require('./routes/resgitro');
 let loginRouter = require('./routes/login');
-let productosRouter = require('./routes/productos');
+let productosRouter = require('./routes/productos'); //1. acá se instancia el router para usarlo en use
 let profileRouter = require('./routes/profile')
 let profileEditRouter = require('./routes/profileEdit')
 let productAddRouter = require('./routes/productsAdd')
@@ -28,7 +28,7 @@ app.use('/', indexRouter);
 //app.use('/users', usersRouter);
 app.use('/registro', registroRouter);
 app.use('/login', loginRouter);
-app.use('/productos', productosRouter); 
+app.use('/productos', productosRouter); //2. acá indico que se va a usar ese router en /productos
 app.use('/profile', profileRouter);
 app.use('/profile-edit', profileEditRouter);
 app.use('/product-add', productAddRouter);
