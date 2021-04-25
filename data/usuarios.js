@@ -1,5 +1,6 @@
 module.exports = [
     {
+        id: "U2",
         email: "juanmartinez@gmail.com",
         nombreDeUsuario: "Juan Martinez", 
         Edad:26,
@@ -9,6 +10,7 @@ module.exports = [
         comentarios: "300",
     },
     {
+        id: "U2",
         email: "Jorgecasares@gmail.com",
         nombreDeUsuario: "Jorge Casares", 
         Edad:29,
@@ -18,6 +20,7 @@ module.exports = [
         comentarios: "12",
     },
     {
+        id: "U3",
         email: "nataliapuentes@gmail.com",
         nombreDeUsuario: "Natalia Puentes", 
         Edad:18,
@@ -27,7 +30,7 @@ module.exports = [
         comentarios: "47",
     },
     {
-        id: u4,
+        id: "U4",
         nombreDeUsuario: "Pablo Uribe", 
         Edad:47,
         Contraseña:"35139" ,
@@ -36,7 +39,7 @@ module.exports = [
         comentarios: "32",
     },
     {
-        id: u5,
+        id: "U5",
         nombreDeUsuario: "Laura Diaz", 
         Edad:30,
         Contraseña:"caminos12" ,
