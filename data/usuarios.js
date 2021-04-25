@@ -28,6 +28,7 @@ module.exports = [
     },
     {
         id: u4,
+        email:"pablouribe@gmail.com",
         nombreDeUsuario: "Pablo Uribe", 
         Edad:47,
         Contraseña:"35139" ,
@@ -37,6 +38,7 @@ module.exports = [
     },
     {
         id: u5,
+        email:"lauradiaz@gmail.com" ,
         nombreDeUsuario: "Laura Diaz", 
         Edad:30,
         Contraseña:"caminos12" ,
