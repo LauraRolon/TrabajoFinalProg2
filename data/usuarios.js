@@ -1,6 +1,5 @@
 module.exports = [
-    {
-        id: "U2",
+    {   id: "U1",
         email: "juanmartinez@gmail.com",
         nombreDeUsuario: "Juan Martinez", 
         Edad:26,
@@ -9,8 +8,7 @@ module.exports = [
         seguidores: "200",
         comentarios: "300",
     },
-    {
-        id: "U2",
+    {   id: "U2",
         email: "Jorgecasares@gmail.com",
         nombreDeUsuario: "Jorge Casares", 
         Edad:29,
@@ -19,8 +17,7 @@ module.exports = [
         seguidores: "20",
         comentarios: "12",
     },
-    {
-        id: "U3",
+    {   id:"U3",
         email: "nataliapuentes@gmail.com",
         nombreDeUsuario: "Natalia Puentes", 
         Edad:18,

@@ -74,7 +74,24 @@
                 foto: "/lenovo-laptop-legion-5-15-intel.jpg",
                 descripcion: "Lenovo Legion 5i (15.6, Intel)",
             },  
-    
+            {
+            id: "9",
+            marca: "Asus",
+            modelo: "E410ma",
+            sistemaOperativo: "Linux ",
+            memoria: "4 GB ",
+            foto: "/asus.jpg",
+            descripcion: "Notebook Asus E410ma N4020 4gb Ram 128gb Ssd 14 Pulg Win 10 Peacock Blue",
+        },
+        {
+            id: "10",
+            marca: "Asus",
+            modelo: "Not00096",
+            sistemaOperativo: "Linux",
+            memoria: "4 GB ",
+            foto: "/ausrezize.jpg",
+            descripcion: "Notebook Asus 15-X509FA Intel Core i3 15,6 Pulgadas",
+        }, 
         ]
     }
     module.exports=productos
