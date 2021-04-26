@@ -1,14 +1,14 @@
-let productos = require('../data/productos') //Acá lo que hago es traer data de productos
+let productos = require('../data/productos') 
 
-let controllersProductos = { //acá tengo un obj con muchas funciones
-    index: function(req, res){  //res.rendr es una func que va a renderizar lo que setee. Acá pido que al usuario se de devuelva la renderizacion de productos.
-        res.render('productos',{'productos': productos}); //Como la infromación es dinámica, con 'productos': productos indico que se va a traer la info de la data que declare arriba
+let controllersProductos = { 
+    index: function(req, res){  
+        res.render('productos',{'productos': productos}); 
     },
 
-    list: function(req, res){ //acá igual
+    /* list: function(req, res){ //acá igual
         console.log('productos');
         res.render('productos',{'productos': productos});
-    },
+    }, */
 
     //para un futuro dinámico
     id: function(req,res){ 
@@ -25,10 +25,10 @@ let controllersProductos = { //acá tengo un obj con muchas funciones
         //res.send(resultados)
     },
 
-    busqueda: (req, res) => {  //estos son dos parametros que vamos a recibir
-        const searchTerm = req.query.search //searchTerm es el parametro search dentro de la url y 
-        let resultados= productos.lista.filter((p) => { //filtro los productos para otener los resultados
-            return p.descripcion.includes(searchTerm); //includes devuleve true or false. Cuando es true me trae los productos de la lista que coincidan con lo ingresado
+    busqueda: (req, res) => {  
+        const searchTerm = req.query.search 
+        let resultados= productos.lista.filter((p) => { 
+            return p.descripcion.includes(searchTerm); 
         });
         
             
