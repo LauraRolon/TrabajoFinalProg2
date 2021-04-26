@@ -22,7 +22,7 @@ usuarios_id int not null,
 foreign key (usuarios_id) references usuarios (id)
 );
 create table comentarios(
-Id INT unsigned KEY AUTO_INCREMENT,
+Id INT unsigned primary key auto_increment,
 texto varchar (50) not null,
 fecha varchar (50) not null,
 foreign key (usuarios_id) references usuarios (id),
