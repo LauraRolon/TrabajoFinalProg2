@@ -1,4 +1,9 @@
-let productos = require('../data/productos') 
+/* let productos = require('../data/productos') */ 
+
+const db = require('../database/models')
+const movie = db.Product;
+
+const op = db.Sequelize.Op;
 
 let controllersProductos = { 
     index: function(req, res){  
