@@ -1,5 +1,5 @@
 let controllersRegistro =  {
-    index:(req, res) =>{    
+    registro:(req, res) =>{    
             res.render('registro')
     }
 };

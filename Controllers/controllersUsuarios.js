@@ -16,7 +16,28 @@ module.exports = {
         }
         res.render("usuariosid", {"usuarios":resultados})
     },
-}
+    login: function(req, res, next) {  
+        res.render('login');
+      },
+    /* validuser: function(req, res, next){
+        let usr = req.params.user
+        let pass = req.param.pass //hacer validación acá
+        console.log(usr);
+        console.log(pass);
+        res.render('index'); //cambiar después y mandarlo a otravista con encabezado loggeado
+    } */
+    registro:(req, res) =>{    
+        res.render('registro')
+    },
+    profile:(req, res) =>{    
+        res.render('profile')
+    },
+    profileEdit:(req, res) =>{    
+        res.render('profile-edit')
+    }
+
+};
+
 
 module.exports = controller
 

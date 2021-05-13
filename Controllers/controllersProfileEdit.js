@@ -1,5 +1,5 @@
 let controllersProfileEdit = {
-    index:(req, res) =>{    
+    profileEdit:(req, res) =>{    
         res.render('profile-edit')
     }
 }

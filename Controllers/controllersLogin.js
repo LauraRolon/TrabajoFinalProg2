@@ -1,5 +1,5 @@
 let controllersLogin = {
-    index: function(req, res, next) {  
+    login: function(req, res, next) {  
         res.render('login');
       },
     validuser: function(req, res, next){
