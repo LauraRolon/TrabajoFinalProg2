@@ -41,6 +41,9 @@ let controllersProductos = {
         res.render("search-results", { resultados})
 
     },
+    productsAdd:(req, res) =>{    
+        res.render('product-add')
+    }
 };
 
 module.exports = controllersProductos

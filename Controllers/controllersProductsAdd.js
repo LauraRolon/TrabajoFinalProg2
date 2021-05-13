@@ -1,5 +1,5 @@
 let controllersProductsAdd = {
-    index:(req, res) =>{    
+    productsAdd:(req, res) =>{    
         res.render('product-add')
     }
 }

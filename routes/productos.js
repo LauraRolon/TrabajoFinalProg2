@@ -7,6 +7,6 @@ let controllersProductos = require('../Controllers/controllersProductos')
 router.get('/', controllersProductos.index); 
 router.get('/busqueda', controllersProductos.busqueda); 
 router.get('/:id', controllersProductos.id); // (Tester)
-router.get('/', controllersProductsAdd.index );
+router.get('/', controllersProductos.productsAdd);
 
 module.exports = router; 
